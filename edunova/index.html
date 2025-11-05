@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edunova Plus - Votre partenaire éducatif</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="./images/LOGO-PRINCIPAL-PNG-300x55.png" style="width: 120px; height: auto;">
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html#accueil">ACCUEIL</a></li>
+                    <li><a href="index.html#actualite">NOTRE ACTUALITÉ</a></li>
+                    <li><a href="index.html#evenements">ÉVÉNEMENTS</a></li>
+                    <li class="has-submenu">
+                        <a href="index.html#connaitre">NOUS CONNAÎTRE</a>
+                        <ul class="sub-menu">
+                            <li><a href="edunova-plus.html">Edunova Plus</a></li>
+                            <li><a href="notre-mission.html">Notre Mission</a></li>
+                            <li><a href="nos-partenaires.html">Nos Partenaires</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="index.html#rejoindre">NOUS REJOINDRE</a>
+                        <ul class="sub-menu">
+                            <li><a href="offre-emploi.html">Offre d'emploi</a></li>
+                            <li><a href="partenariat.html">Partenariat</a></li>
+                            <li><a href="prestation.html">Prestation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#galerie">GALERIE</a></li>
+                    <li><a href="index.html#contact">CONTACT</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section avec Carrousel -->
+    <section id="accueil" class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide">
+                <img src="./images/edunova-accueil.webp" alt="Campus universitaire">
+            </div>
+            <div class="hero-slide">
+                <img src="./images/pexels-pnw-prod-8276637-scaled.jpg" alt="Étudiants en cours">
+            </div>
+            <div class="hero-slide">
+                <img src="./images/pexels-gabby-k-6998872-scaled.jpg" alt="Technologie éducative">
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <h2>L'éducation innovante pour un avenir meilleur</h2>
+            <p>Edunova Plus révolutionne l'apprentissage avec des méthodes pédagogiques modernes et adaptées aux défis du 21ème siècle.</p>
+            <div class="hero-buttons">
+                <a href="index.html#contact" class="btn">Nous Rejoindre</a>
+                <a href="index.html#actualite" class="btn btn-accent">En Savoir Plus</a>
+            </div>
+        </div>
+        
+        <button class="hero-nav hero-prev">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="hero-nav hero-next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        
+        <div class="hero-controls">
+            <div class="hero-dot active"></div>
+            <div class="hero-dot"></div>
+            <div class="hero-dot"></div>
+        </div>
+    </section>
+
+    <!-- Dans la section actualités de index.html -->
+    <section id="actualite" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre Actualité</h2>
+                <p>Découvrez les dernières nouvelles et développements chez Edunova Plus</p>
+            </div>
+            <div class="news-grid" id="dynamic-news">
+                <!-- Les actualités seront chargées dynamiquement ici -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Dans la section événements de index.html -->
+    <section id="evenements" class="section" style="background-color: #f5f7fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Événements à Venir</h2>
+                <p>Ne manquez pas nos prochains événements et activités</p>
+            </div>
+            <div class="events-container" id="dynamic-events">
+                <!-- Les événements seront chargés dynamiquement ici -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie - Version Carrousel avec espacement -->
+    <section id="galerie" class="section gallery-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galerie</h2>
+                <p>Découvrez nos moments forts en images</p>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-slider">
+                    <!-- Les images récentes seront chargées dynamiquement ici -->
+                </div>
+                <div class="gallery-controls">
+                    <button class="gallery-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="gallery-dots">
+                        <!-- Les points seront générés dynamiquement -->
+                    </div>
+                    <button class="gallery-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="galerie-evenements.html" class="btn">Voir toute la galerie</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section" style="background-color: #f5f7fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>N'hésitez pas à nous contacter pour toute question</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Adresse</h3>
+                            <p>Parakou, Bénin Qtr: Ladji farani</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Téléphone</h3>
+                            <p>+229 01 65 45 67 89</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contact@edunovaplus.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3>Horaires d'ouverture</h3>
+                            <p>Lundi - Vendredi: 9h00 - 17h00<br>Samedi: 9h00 - 12h00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="mailto:amadoubachad@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Edunova Plus</h3>
+                    <p>Transformer l'éducation pour préparer les générations futures aux défis de demain.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61570593353203" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/Edunova_" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/edunovaplus/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/edunova-plus/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#accueil">Accueil</a></li>
+                        <li><a href="index.html#actualite">Actualité</a></li>
+                        <li><a href="index.html#evenements">Événements</a></li>
+                        <li><a href="index.html#connaitre">À propos</a></li>
+                        <li><a href="index.html#rejoindre">Nous rejoindre</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Programmes</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Éducation primaire</a></li>
+                        <li><a href="#">Éducation secondaire</a></li>
+                        <li><a href="#">Formation continue</a></li>
+                        <li><a href="#">Ateliers spécialisés</a></li>
+                        <li><a href="#">Programmes STEM</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Abonnez-vous à notre newsletter pour recevoir nos dernières actualités.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email" class="form-control" style="margin-bottom: 10px;">
+                        <button type="submit" class="btn">S'abonner</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Edunova Plus. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

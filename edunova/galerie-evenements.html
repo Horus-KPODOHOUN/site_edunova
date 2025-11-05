@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie Événements - Edunova Plus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+             <div class="logo">
+                <img src="./images/LOGO-PRINCIPAL-PNG-300x55.png" style="width: 120px; height: auto;">
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html#accueil">ACCUEIL</a></li>
+                    <li><a href="index.html#actualite">NOTRE ACTUALITÉ</a></li>
+                    <li><a href="index.html#evenements">ÉVÉNEMENTS</a></li>
+                    <li class="has-submenu">
+                        <a href="index.html#connaitre">NOUS CONNAÎTRE</a>
+                        <ul class="sub-menu">
+                            <li><a href="edunova-plus.html">Edunova Plus</a></li>
+                            <li><a href="notre-mission.html">Notre Mission</a></li>
+                            <li><a href="nos-partenaires.html">Nos Partenaires</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="index.html#rejoindre">NOUS REJOINDRE</a>
+                        <ul class="sub-menu">
+                            <li><a href="offre-emploi.html">Offre d'emploi</a></li>
+                            <li><a href="partenariat.html">Partenariat</a></li>
+                            <li><a href="prestation.html">Prestation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#galerie">GALERIE</a></li>
+                    <li><a href="index.html#contact">CONTACT</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Galerie complète -->
+    <section class="gallery-page">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Événements en Images</h2>
+                <p>Retour en images sur nos activités et moments marquants</p>
+            </div>
+
+            <!-- Filtres -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="conferences">Conférences</button>
+                <button class="filter-btn" data-filter="ateliers">Ateliers</button>
+                <button class="filter-btn" data-filter="formations">Formations</button>
+                <button class="filter-btn" data-filter="evenements">Événements spéciaux</button>
+            </div>
+
+            <!-- Grille d'images -->
+            <div class="gallery-grid">
+                <!-- Conférences -->
+                <div class="gallery-item" data-category="conferences">
+                    <img src="https://source.unsplash.com/random/600x400/?conference,education" alt="Conférence sur l'éducation innovante">
+                    <div class="gallery-item-caption">Conférence sur l'éducation innovante - Juin 2023</div>
+                </div>
+                <div class="gallery-item" data-category="conferences">
+                    <img src="https://source.unsplash.com/random/600x401/?speaker,audience" alt="Keynote speaker">
+                    <div class="gallery-item-caption">Intervention d'expert - Mai 2023</div>
+                </div>
+
+                <!-- Ateliers -->
+                <div class="gallery-item" data-category="ateliers">
+                    <img src="https://source.unsplash.com/random/600x402/?workshop,students" alt="Atelier pratique">
+                    <div class="gallery-item-caption">Atelier coding pour enfants - Août 2023</div>
+                </div>
+                <div class="gallery-item" data-category="ateliers">
+                    <img src="https://source.unsplash.com/random/600x403/?workshop,technology" alt="Atelier technologie">
+                    <div class="gallery-item-caption">Atelier réalité virtuelle - Juillet 2023</div>
+                </div>
+                <div class="gallery-item" data-category="ateliers">
+                    <img src="https://source.unsplash.com/random/600x404/?workshop,art" alt="Atelier créatif">
+                    <div class="gallery-item-caption">Atelier créatif - Septembre 2023</div>
+                </div>
+
+                <!-- Formations -->
+                <div class="gallery-item" data-category="formations">
+                    <img src="https://source.unsplash.com/random/600x405/?training,teachers" alt="Formation enseignants">
+                    <div class="gallery-item-caption">Formation des enseignants - Avril 2023</div>
+                </div>
+                <div class="gallery-item" data-category="formations">
+                    <img src="https://source.unsplash.com/random/600x406/?training,digital" alt="Formation digitale">
+                    <div class="gallery-item-caption">Formation outils numériques - Mars 2023</div>
+                </div>
+
+                <!-- Événements spéciaux -->
+                <div class="gallery-item" data-category="evenements">
+                    <img src="https://source.unsplash.com/random/600x407/?graduation,ceremony" alt="Cérémonie de remise des diplômes">
+                    <div class="gallery-item-caption">Cérémonie de remise des diplômes - Juin 2023</div>
+                </div>
+                <div class="gallery-item" data-category="evenements">
+                    <img src="https://source.unsplash.com/random/600x408/?openhouse,education" alt="Journée portes ouvertes">
+                    <div class="gallery-item-caption">Journée portes ouvertes - Mai 2023</div>
+                </div>
+                <div class="gallery-item" data-category="evenements">
+                    <img src="https://source.unsplash.com/random/600x409/?event,networking" alt="Networking event">
+                    <div class="gallery-item-caption">Soirée networking - Avril 2023</div>
+                </div>
+                <div class="gallery-item" data-category="evenements">
+                    <img src="https://source.unsplash.com/random/600x410/?celebration,education" alt="Célébration réussite">
+                    <div class="gallery-item-caption">Célébration des réussites - Mars 2023</div>
+                </div>
+
+                <!-- Images supplémentaires -->
+                <div class="gallery-item" data-category="conferences">
+                    <img src="https://source.unsplash.com/random/600x411/?conference,technology" alt="Conférence tech">
+                    <div class="gallery-item-caption">Conférence EdTech - Février 2023</div>
+                </div>
+                <div class="gallery-item" data-category="ateliers">
+                    <img src="https://source.unsplash.com/random/600x412/?robotics,workshop" alt="Atelier robotique">
+                    <div class="gallery-item-caption">Atelier robotique - Janvier 2023</div>
+                </div>
+            </div>
+
+            <!-- Bouton Load More -->
+            <div class="load-more-container">
+                <button id="loadMore" class="btn">Charger plus d'images</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal pour l'image agrandie -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <button class="modal-nav modal-prev">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="modal-nav modal-next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <img class="modal-content" id="modalImage">
+        <div id="modalCaption" class="modal-caption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Edunova Plus</h3>
+                    <p>Transformer l'éducation pour préparer les générations futures aux défis de demain.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61570593353203" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/Edunova_" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/edunovaplus/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/edunova-plus/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#accueil">Accueil</a></li>
+                        <li><a href="index.html#actualite">Actualité</a></li>
+                        <li><a href="index.html#evenements">Événements</a></li>
+                        <li><a href="index.html#connaitre">À propos</a></li>
+                        <li><a href="index.html#rejoindre">Nous rejoindre</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Programmes</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Éducation primaire</a></li>
+                        <li><a href="#">Éducation secondaire</a></li>
+                        <li><a href="#">Formation continue</a></li>
+                        <li><a href="#">Ateliers spécialisés</a></li>
+                        <li><a href="#">Programmes STEM</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Abonnez-vous à notre newsletter pour recevoir nos dernières actualités.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email" class="form-control" style="margin-bottom: 10px;">
+                        <button type="submit" class="btn">S'abonner</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Edunova Plus. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
